@@ -26,7 +26,6 @@ resource "aws_instance" "kiran-test" {
 
 resource "aws_s3_bucket" "my_bucket" {
   bucket = "kiran-0432-chow"  # Set a globally unique bucket name
-  acl    = "private"  # Access control list (e.g., private, public-read, public-read-write)
 
   tags = {
     Name        = "MyBucket"
