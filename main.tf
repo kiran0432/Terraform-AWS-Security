@@ -28,7 +28,7 @@ resource "aws_s3_bucket" "my_bucket" {
   bucket = "kiran-0432-chow"  # Set a globally unique bucket name
 
   tags = {
-    Name = "MyBucket"
+    Name = "Kiran-s3-bucket"
     Env = "Production"
   }
 }
